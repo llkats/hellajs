@@ -1,0 +1,24 @@
+{
+  "name": "hella",
+  "version": "0.0.0",
+  "description": "tbd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/llkats/hellajs"
+  },
+  "keywords": [
+    "hella",
+    "js",
+    "hellajs"
+  ],
+  "author": "Lydia Katsamberis",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/llkats/hellajs/issues"
+  },
+  "homepage": "https://github.com/llkats/hellajs"
+}
