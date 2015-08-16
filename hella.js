@@ -1,22 +1,25 @@
 var Hella = {
   animals: function() {
     // should scrape and store a bunch of animals, or find a free api
-    return ['zebras', 'pumas', 'penguins', 'monkeys', 'hyenas', 'elk'];
+    return ['zebras', 'pumas', 'penguins', 'monkeys', 'hyenas', 'elk']
   },
 
   words: function() {
     // scrape a dictionary
     // what about other languages?
-    return ['a', 'the', 'an', 'and', 'sup', 'whatever'];
+    return ['a', 'the', 'an', 'and', 'sup', 'whatever']
   },
 
   numbers: function() {
     // lol
-    var i = 0;
+    var i = 0
+    var hellaNumbers = []
     while (i < 99999) {
-      console.log(i + ' ');
-      i++;
+      hellaNumbers.push(i)
+      i++
     }
+
+    return hellaNumbers
   },
 
   countries: function() {
@@ -28,4 +31,4 @@ var Hella = {
   }
 }
 
-module.exports = Hella;
+module.exports = Hella

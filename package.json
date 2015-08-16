@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "tbd",
   "main": "index.js",
-  "scripts": { },
+  "scripts": {
+    "test": "node_modules/tap/bin/run.js ./test/hella-test.js --reporter=nyan"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/llkats/hellajs"
@@ -13,10 +15,16 @@
     "js",
     "hellajs"
   ],
-  "author": "Lydia Katsamberis",
+  "author": "Lydia Kats",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/llkats/hellajs/issues"
   },
-  "homepage": "https://github.com/llkats/hellajs"
+  "homepage": "https://github.com/llkats/hellajs",
+  "devDependencies": {
+    "tap"  : "^1.3.2"
+  },
+  "dependencies": {
+
+  }
 }

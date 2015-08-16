@@ -7,6 +7,6 @@ var hella = require('./hella.js');
 // console.log(hella)
 
 // hella.animals();
-hella.numbers();
+console.log(hella.numbers())
 
 // should do a cli thing like "hello, what do you want hella of?" and the user can type "animals" and get hella animals
