@@ -1,7 +1,8 @@
 {
   "name": "hella",
   "version": "0.0.1",
-  "description": "tbd",
+  "author": "Lydia Kats",
+  "description": "get hella stuff",
   "main": "index.js",
   "scripts": {
     "test": "node_modules/tap/bin/run.js ./test/hella-test.js --reporter=nyan"
@@ -15,7 +16,6 @@
     "js",
     "hellajs"
   ],
-  "author": "Lydia Kats",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/llkats/hellajs/issues"
