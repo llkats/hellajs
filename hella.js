@@ -28,6 +28,14 @@ var Hella = {
 
   cities: function() {
     // use substack's 1000cities module
+  },
+
+  gifs: function() {
+    // giphy api?
+  },
+
+  memes: function() {
+    // know your meme?
   }
 }
 
