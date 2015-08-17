@@ -70,6 +70,18 @@ returns hella urls to gifs
 
 returns hella names of memes
 
+### demons
+
+`hella.demons()`
+
+returns hella names of biblical demons
+
+### pokemon
+
+`hella.pokemon()`
+
+returns hella names of pokemon
+
 ## hella CLI
 
 hella TODO
