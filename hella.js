@@ -10,6 +10,15 @@ var Hella = {
     return ['a', 'the', 'an', 'and', 'sup', 'whatever']
   },
 
+  demons: function() {
+    return [ 'Asmodeus', 'Astaroth', 'Azazel', 'Balaam', 'Behemoth', 'Beezlebub',
+      'Bile', 'Cimeries', 'Coyote', 'Damballa', 'Dagon', 'Mormo', 'Mictian' ]
+  },
+
+  pokemon: function() {
+    return [ 'Snorlax', 'Pikachu', 'Charmander', 'Bulbasaur', 'Psyduck', 'Squirtle' ]
+  },
+
   numbers: function() {
     // lol
     var i = 0
