@@ -24,18 +24,22 @@ var Hella = {
 
   countries: function() {
     // list of countries
+    return 'hella todo'
   },
 
   cities: function() {
     // use substack's 1000cities module
+    return 'hella todo'
   },
 
   gifs: function() {
     // giphy api?
+    return 'hella todo'
   },
 
   memes: function() {
     // know your meme?
+    return 'hella todo'
   }
 }
 
