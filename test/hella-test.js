@@ -29,5 +29,23 @@ test('hella tests', function(t) {
     tt.end()
   })
 
+  test('hella pokemon', function(tt) {
+    var soManyPokemon = hella.pokemon()
+
+    tt.ok(soManyPokemon.length > 0, 'gotta catch em all. pokemon. (at least several)')
+    tt.type(soManyPokemon, Array, 'hella pokemon are returned in an array')
+
+    tt.end()
+  })
+
+  test('hella demons', function(tt) {
+    var soManyDemons = hella.demons()
+
+    tt.ok(soManyDemons.length > 0, 'hella demons has more than one number')
+    tt.type(soManyDemons, Array, 'demons array themselves before returning')
+
+    tt.end()
+  })
+
   t.end()
 })
