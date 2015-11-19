@@ -1,7 +1,8 @@
+var animals = require('animals')
+
 var Hella = {
   animals: function() {
-    // should scrape and store a bunch of animals, or find a free api
-    return ['zebras', 'pumas', 'penguins', 'monkeys', 'hyenas', 'elk']
+    return animals.words;
   },
 
   words: function() {
